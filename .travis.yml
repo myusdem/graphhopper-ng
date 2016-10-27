@@ -16,7 +16,7 @@ before_script:
 script:
   - ng lint
   - ng test --no-watch
-  - npm run e2e
+  - npm run e2e-travis
 
 after_success:
   - npm run coveralls
