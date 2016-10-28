@@ -33,6 +33,8 @@ module.exports = function (config) {
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
+    browserNoActivityTimeout: 20000,
+    browserDisconnectTolerance: 3,
     browsers: ['PhantomJS'],
     // browsers: ['Chrome'],
     singleRun: false
