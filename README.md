@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/myusdem/graphhopper-ng.svg?branch=ci)](https://travis-ci.org/myusdem/graphhopper-ng)
+[![Build Status](https://travis-ci.org/myusdem/graphhopper-ng.svg?branch=master)](https://travis-ci.org/myusdem/graphhopper-ng)
 
 # GraphhopperNg
 
