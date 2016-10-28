@@ -21,6 +21,7 @@ describe('graphhopper-ng App', function() {
     page.addMarker();
     page.clickOnMap(200, 200);
     expect(page.countMarkers()).toBe(1);
+    browser.sleep(5000);
     page.removeMarker();
     page.clickOnMap(210, 210);
     expect(page.countMarkers()).toBe(0);
