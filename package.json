@@ -10,7 +10,8 @@
     "pree2e": "webdriver-manager update",
     "e2e": "protractor",
     "e2e-travis": "protractor protractor-travis.conf.js",
-    "stubby": "stubby -d e2e/graphhopper.endpoints"
+    "stubby": "stubby -d e2e/graphhopper.endpoints",
+    "coveralls": "cat ./coverage/coverage.lcov | ./node_modules/coveralls/bin/coveralls.js"
   },
   "private": true,
   "dependencies": {
