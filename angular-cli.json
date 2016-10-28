@@ -28,7 +28,8 @@
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts",
-        "e2e": "environments/environment.e2e.ts"
+        "e2e": "environments/environment.e2e.ts",
+        "ci": "environments/environment.ci.ts"
       }
     }
   ],
