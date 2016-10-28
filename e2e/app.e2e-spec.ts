@@ -17,8 +17,10 @@ describe('graphhopper-ng App', function() {
   });
 
   it('should add and delete marker on map', () => {
+    expect(page.countMarkers()).toBe(0);
     page.addMarker();
     page.clickOnMap(200, 200);
+    expect(page.countMarkers()).toBe(1);
     page.removeMarker();
     page.clickOnMap(210, 210);
     expect(page.countMarkers()).toBe(0);
