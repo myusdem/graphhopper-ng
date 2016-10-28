@@ -19,6 +19,8 @@ describe('App: GraphhopperNg', () => {
   let spy;
   let geocodingService;
 
+  jasmine.DEFAULT_TIMEOUT_INTERVAL = 20000;
+
   beforeEach(() => {
 
     TestBed.configureTestingModule({
