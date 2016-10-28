@@ -14,7 +14,7 @@ before_script:
   - sleep 30
 
 script:
-  - ng lint
+#  - ng lint
   - ng test --no-watch
   - npm run e2e-travis
 
