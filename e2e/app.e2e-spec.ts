@@ -7,7 +7,7 @@ declare var $: any;
 describe('graphhopper-ng App', function() {
   let page: GraphhopperNgPage;
 
-  jasmine.DEFAULT_TIMEOUT_INTERVAL = 20000;
+  jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
 
   beforeEach(() => {
     page = new GraphhopperNgPage();
